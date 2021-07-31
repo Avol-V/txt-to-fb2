@@ -1,0 +1,32 @@
+{
+  "name": "txt-to-fb2",
+  "version": "1.0.0",
+  "description": "Convert txt to simple fb2 (for fb2-to-speechkit)",
+  "keywords": [
+    "text",
+    "txt",
+    "fb2"
+  ],
+  "homepage": "https://github.com/Avol-V/txt-to-fb2#readme",
+  "bugs": {
+    "url": "https://github.com/Avol-V/txt-to-fb2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avol-V/txt-to-fb2.git"
+  },
+  "license": "MIT",
+  "author": "Andrey Volynkin",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.17.6"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
